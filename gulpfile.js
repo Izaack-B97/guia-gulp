@@ -25,7 +25,7 @@ function watch_css( cb ) {
 
 // Declaro las tareas publicas con exports
 exports.holaMundo = holaMundo;
-exports.adiosMundo = adiosMundo;
+exports.adiosMundo = adiosMundo; 
 exports.default = holaMundo;
 exports.serie = series( adiosMundo, holaMundo );
 exports.paralelo = parallel( adiosMundo, holaMundo );
